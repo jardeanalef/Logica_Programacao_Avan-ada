@@ -13,10 +13,26 @@
 
    }
 
+   /* chamando a função desenhaQuadrado alterando os valores
    desenhaQuadrado(0, 0, 'green');
    desenhaQuadrado(50, 0, 'green');
    desenhaQuadrado(100, 0, 'green');
+   */
    
-   
+
+   /* utilizando o laço de repetição while
+   var x = 0;
+
+   while(x < 600) {
+    desenhaQuadrado(x, 0, 'green');
+    x = x + 50;
+   }
+   */
+
+   for(var x = 0; x < 600; x = x + 50) {
+    desenhaQuadrado(x, 0, 'green');
+   }
+
+
 
 </script>
